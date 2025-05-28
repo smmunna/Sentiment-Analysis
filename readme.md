@@ -1,5 +1,3 @@
-Here’s a `README.md` you can use for your **Sentiment Analysis Web App with FastAPI and HTML frontend**:
-
 # 🧠 Sentiment Analysis Web App (FastAPI + HTML)
 
 This project is a sentiment analysis web application that uses a Logistic Regression model trained on the **Sentiment140** dataset. Users can input a tweet/message through a simple HTML form and receive a prediction: **Positive 😊** or **Negative 😞**.
@@ -107,4 +105,3 @@ This project is licensed under the MIT License.
 ---
 
 Let me know if you want a `sentiment_analysis.pkl` or deployment instructions for platforms like Render, Vercel, or Railway.
-```
