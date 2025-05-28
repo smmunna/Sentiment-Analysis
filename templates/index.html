@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Sentiment Analysis</title>
+</head>
+<body>
+  <h2>Tweet Sentiment Checker</h2>
+  <form id="sentiment-form">
+    <textarea id="tweet" name="tweet" rows="5" cols="40" placeholder="Enter your tweet here..."></textarea><br><br>
+    <button type="submit">Analyze</button>
+  </form>
+  <h3 id="result"></h3>
+
+  <script>
+    document.getElementById("sentiment-form").addEventListener("submit", async function(e) {
+      e.preventDefault();
+      const formData = new FormData();
+      formData.append("tweet", document.getElementById("tweet").value);
+
+      const response = await fetch("/predict", {
+        method: "POST",
+        body: formData
+      });
+
+      const data = await response.json();
+      document.getElementById("result").innerText = "Sentiment: " + data.sentiment;
+    });
+  </script>
+</body>
+</html>
