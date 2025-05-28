@@ -1,13 +1,8 @@
 Here’s a `README.md` you can use for your **Sentiment Analysis Web App with FastAPI and HTML frontend**:
 
----
-
-````markdown
 # 🧠 Sentiment Analysis Web App (FastAPI + HTML)
 
 This project is a sentiment analysis web application that uses a Logistic Regression model trained on the **Sentiment140** dataset. Users can input a tweet/message through a simple HTML form and receive a prediction: **Positive 😊** or **Negative 😞**.
-
----
 
 ## 🚀 Features
 
@@ -17,15 +12,12 @@ This project is a sentiment analysis web application that uses a Logistic Regres
 - HTML frontend served using FastAPI and Jinja2
 - REST API endpoint for predicting sentiment
 
----
-
 ## 🛠 Tech Stack
 
 - Backend: Python, FastAPI, Scikit-learn, Jinja2
 - Frontend: HTML, CSS
 - Dataset: [Sentiment140](http://help.sentiment140.com/for-students/)
 
----
 
 ## 📦 Setup Instructions
 
@@ -112,9 +104,7 @@ Sentiment: Positive 😊
 
 This project is licensed under the MIT License.
 
-```
-
 ---
 
-Let me know if you want a `requirements.txt` or deployment instructions for platforms like Render, Vercel, or Railway.
+Let me know if you want a `sentiment_analysis.pkl` or deployment instructions for platforms like Render, Vercel, or Railway.
 ```
